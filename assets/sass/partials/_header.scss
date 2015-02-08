@@ -18,4 +18,24 @@
         letter-spacing: 0.2em;
       }
     }
+
+  //  Start of the ability
+  .ability{
+    margin-top: 5%;
+    margin-left: 15%;
+    div{
+      float: left;
+
+    }
+    div+div{
+      padding-left: 5%;
+    }
+    h6{
+      font-weight: 900;
+      font-size: .9em;
+      font-family: "Consolas", "Menlo", "Courier", monospace;
+    }
+  }
+
+
 }

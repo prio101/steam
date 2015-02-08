@@ -7,6 +7,17 @@
     font-family: "Monostate", sans-serif; }
   .header .title small {
     letter-spacing: 0.2em; }
+.header .ability {
+  margin-top: 5%;
+  margin-left: 15%; }
+  .header .ability div {
+    float: left; }
+  .header .ability div + div {
+    padding-left: 5%; }
+  .header .ability h6 {
+    font-weight: 900;
+    font-size: .9em;
+    font-family: "Consolas", "Menlo", "Courier", monospace; }
 
 /*Styles of about section*/
 .about {
