@@ -1,0 +1,71 @@
+/*Styles of about section*/
+.about{
+  margin-top: 20%;
+  display: inline-block;
+  .bio{
+    margin-left: 4%;
+    font-family: "Consolas", "Menlo", "Courier", monospace;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-right: 50%;
+
+  }
+
+//  Styles of the avatar
+  .avatar{
+    margin-top: -30%;
+    margin-left: 70%;
+
+    img{
+      width: 200px;
+      height: auto;
+    }
+    small{
+      display: block;
+      font-weight: 700;
+      font-size: .7em;
+      text-align: left;
+    }
+
+    h4{
+      font-size: 1.3em;
+      font-family: 'Sigmar One', sans-serif;
+
+      font-weight: 800;
+
+    }
+
+
+  }
+//  Style of the social icons
+  .social-icons{
+    margin-left: 70%;
+    margin-top: 3%;
+    nav{
+      ul{
+
+        display: inline;
+
+        li{
+          list-style: none;
+          float: left;
+          padding-left: 15px;
+          a{
+            color:#282828 !important;
+
+            &:hover{
+              color: #777777 !important;
+            }
+            &:active{
+              color: #777777 !important;
+            }
+
+          }
+        }
+      }
+    }
+  }
+//  /of social icons
+
+}

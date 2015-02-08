@@ -1,0 +1,6 @@
+# This is the gitignore file where you can write down the files you don't to track
+
+.idea
+bower_components
+CHANGELOG.md
+Contributors.md

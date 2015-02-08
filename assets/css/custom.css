@@ -1,0 +1,53 @@
+.header .title {
+  text-align: center;
+  margin-top: 20%; }
+  .header .title h2 {
+    font-size: 5em;
+    font-weight: 900;
+    font-family: "Monostate", sans-serif; }
+  .header .title small {
+    letter-spacing: 0.2em; }
+
+/*Styles of about section*/
+.about {
+  margin-top: 20%;
+  display: inline-block; }
+  .about .bio {
+    margin-left: 4%;
+    font-family: "Consolas", "Menlo", "Courier", monospace;
+    line-height: 1.5em;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-right: 50%; }
+  .about .avatar {
+    margin-top: -30%;
+    margin-left: 70%; }
+    .about .avatar img {
+      width: 200px;
+      height: auto; }
+    .about .avatar small {
+      display: block;
+      font-weight: 700;
+      font-size: .7em;
+      text-align: left; }
+    .about .avatar h4 {
+      font-size: 1.3em;
+      font-family: 'Sigmar One', sans-serif;
+      font-weight: 800; }
+  .about .social-icons {
+    margin-left: 70%;
+    margin-top: 3%; }
+    .about .social-icons nav ul {
+      display: inline; }
+      .about .social-icons nav ul li {
+        list-style: none;
+        float: left;
+        padding-left: 15px; }
+        .about .social-icons nav ul li a {
+          color: #282828 !important; }
+          .about .social-icons nav ul li a:hover {
+            color: #777777 !important; }
+          .about .social-icons nav ul li a:active {
+            color: #777777 !important; }
+
+/*# sourceMappingURL=custom.css.map */
