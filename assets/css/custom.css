@@ -46,7 +46,7 @@
       font-family: 'Sigmar One', sans-serif;
       font-weight: 800; }
   .about .social-icons {
-    margin-left: 70%;
+    margin-left: 68%;
     margin-top: 3%; }
     .about .social-icons nav ul {
       display: inline; }
@@ -71,11 +71,20 @@
   margin-bottom: 10%; }
 
 .img-small {
+  margin-bottom: 3%;
   width: 200px;
   height: auto; }
 
 /*Works styles*/
 #container-works .mix {
   display: none; }
+
+/*Footer styles*/
+.footer {
+  font-family: consolas, monospace;
+  text-align: center;
+  font-weight: 900; }
+  .footer a {
+    color: #282828 !important; }
 
 /*# sourceMappingURL=custom.css.map */
