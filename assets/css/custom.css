@@ -62,9 +62,17 @@
             color: #777777 !important; }
 
 .works-buttons {
-  margin-left: 35%;
+  margin-left: 30%;
   margin-top: 15%;
   font-family: "Consolas", "Menlo", "Courier", monospace !important; }
+
+.works {
+  margin-left: 5%;
+  margin-bottom: 10%; }
+
+.img-small {
+  width: 200px;
+  height: auto; }
 
 /*Works styles*/
 #container-works .mix {
