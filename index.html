@@ -29,7 +29,9 @@
 
         <!--pi-Buttons-->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
-		
+
+        <!--Lightbox-->
+        <link rel="stylesheet" type="text/css" href="assets/css/lightbox.css"/>
 
 		<!-- Normalize css -->
 		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
@@ -120,6 +122,8 @@
                         <li><a href="#"><i class="fa fa-2x fa-align-left"></i></a></li>
                         <li><a href="#"><i class="fa fa-2x fa-bitbucket"></i></a></li>
                         <li><a href="#"><i class="fa fa-2x fa-linkedin-square"></i></a></li>
+                        <li><a href="#"><i class="fa fa-2x fa-envelope-o"></i></a></li>
+                        <li><a href="#"><i class="fa fa-2x fa-twitter"></i></a></li>
                     </ul>
                 </nav>
             </div>
@@ -141,21 +145,71 @@
                 </div>
 
                 <div id="container-works">
-                        <div class="mix closed" data-my-order="1"><img class="img img-responsive img-small" src="assets/img/work1.png" alt="Work-name"/></div>
-                        <div class="mix closed" data-my-order="2"><img class="img img-responsive img-small" src="assets/img/work2.png" alt="Work-name"/></div>
-                        <div class="mix open" data-my-order="3"><img class="img img-responsive img-small" src="assets/img/work3.png" alt="Work-name"/></div>
-                        <div class="mix open" data-my-order="4"><img class="img img-responsive img-small" src="assets/img/work4.jpg" alt="Work-name"/></div>
-                        <div class="mix open" data-my-order="5"><img class="img img-responsive img-small" src="assets/img/work5.png" alt="Work-name"/></div>
-                        <div class="mix open" data-my-order="6"><img class="img img-responsive img-small" src="assets/img/work6.png" alt="Work-name"/></div>
-                        <div class="mix open" data-my-order="7"><img class="img img-responsive img-small" src="assets/img/work7.png" alt="Work-name"/></div>
+                    <!--Lightbox-->
+                    <div class="mix closed" data-my-order="1">
+                        <a href="assets/img/work1.png" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work1.png" alt="Work-name"/>
+                        </a>
+                    </div>
 
+                    <div class="mix closed" data-my-order="1">
+                        <a href="assets/img/work2.png" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work2.png" alt="Work-name"/>
+                        </a>
+                    </div>
 
+                    <div class="mix open" data-my-order="1">
+                        <a href="assets/img/work3.png" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work3.png" alt="Work-name"/>
+                        </a>
+                    </div>
+
+                    <div class="mix closed" data-my-order="1">
+                        <a href="assets/img/work3.png" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work3.png" alt="Work-name"/>
+                        </a>
+                    </div>
+
+                    <div class="mix open" data-my-order="1">
+                        <a href="assets/img/work4.jpg" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work4.jpg" alt="Work-name"/>
+                        </a>
+                    </div>
+
+                    <div class="mix closed" data-my-order="1">
+                        <a href="assets/img/work5.png" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work5.png" alt="Work-name"/>
+                        </a>
+                    </div>
+
+                    <div class="mix open" data-my-order="1">
+                        <a href="assets/img/work6.png" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work6.png" alt="Work-name"/>
+                        </a>
+                    </div>
+
+                    <div class="mix open" data-my-order="1">
+                        <a href="assets/img/work7.png" data-lightbox="image-1" data-title="Caption">
+                            <img class="img img-responsive img-small" src="assets/img/work7.png" alt="Work-name"/>
+                        </a>
+                    </div>
                 </div>
 
 
                 <!--end of the works-->
             </section>
         <!--End of the works section-->
+
+        <!--Start of the footer section-->
+        <section class="footer">
+
+            <div class="quote">
+                <h4>Follow me at <a href="#" target="_blank"><i class="fa fa-twitter-square"></i></a> </h4>
+            </div>
+            <hr/>
+            <small> copyright &copy 2015 --Mahabub I.</small>
+        </section>
+        <!--/footer-->
 
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -173,7 +227,8 @@
         <!--PieChart-->
         <script src="assets/js/jquery.easypiechart.js"></script>
 
-
+        <!--Script of the lightbox-->
+        <script src="assets/js/lightbox.min.js"></script>
         <!--&lt;!&ndash;Lazyload&ndash;&gt;-->
         <!--<script src="assets/js/lazylaod.js"></script>-->
 
