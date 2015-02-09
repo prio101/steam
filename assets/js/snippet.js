@@ -112,7 +112,7 @@ $(function(){
 
 });
 
-
-
-
-
+//Mix
+$(function(){
+    $('#container-works').mixItUp();
+});
