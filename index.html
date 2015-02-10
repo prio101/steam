@@ -65,9 +65,9 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#home">Home<span class="sr-only">(current)</span></a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#works">Works</a></li>
+                            <li><a  href="#home">Home<span class="sr-only">(current)</span></a></li>
+                            <li><a data-scroll="#about" href="#about">About</a></li>
+                            <li><a data-scroll="" href="#works">Works</a></li>
 
                         </ul>
                     </div><!-- /.navbar-collapse -->
@@ -144,7 +144,7 @@
                     <button class="filter pi pi-big pi-flat pi-night" data-filter=".closed" >Crazy works</button>
                 </div>
 
-                <div id="container-works">
+                <div id="container-works" class="lazy-load">
                     <!--Lightbox-->
                     <div class="mix closed" data-my-order="1">
                         <a href="assets/img/work1.png" data-lightbox="image-1" data-title="Caption">
@@ -229,15 +229,25 @@
 
         <!--Script of the lightbox-->
         <script src="assets/js/lightbox.min.js"></script>
-        <!--&lt;!&ndash;Lazyload&ndash;&gt;-->
-        <!--<script src="assets/js/lazylaod.js"></script>-->
 
-        <!--&lt;!&ndash;SmoothScroll&ndash;&gt;-->
-        <!--<script src="assets/js/jquery.smooth-scroll.min.js"></script>-->
+        <!--Lazyload js-->
+        <script src="assets/js/jquery.lazy.js"></script>
+        <!--Lazyload Snippet-->
+        <script src="assets/js/lazySnippet.js"></script>
+        <!--Smooth scroll-->
+        <script src="assets/js/smooth-scroll.min.js"></script>
+        <!--SmoothScrollSnippent-->
+        <script src="assets/js/smoothScrollSnippet.js"></script>
         <!--mix it up js-->
         <script src="assets/js/jquery.mixitup.min.js"></script>
-        <!--snippets-->
+        <!--snippet mixitup-->
         <script src="assets/js/snippet.js"></script>
+
+        <!--nice-scroll-bar-->
+        <script src="assets/js/jquery.nicescroll.min.js"></script>
+        <!--NicescrollScript-->
+        <script src="assets/js/niceScrollInit.js"></script>
+
         <!-- Add your google analytics here -->
         <!-- Change the XXXXXXX section in your site id -->
 		 <script>
