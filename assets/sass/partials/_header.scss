@@ -5,9 +5,7 @@
   .title {
     text-align: center;
     margin-top: 20%;
-      .logo{
 
-      }
 
       h2 {
           font-size: 5em;
@@ -23,6 +21,14 @@
   .ability{
     margin-top: 5%;
     margin-left: 15%;
+    @media screen and (max-width: 1600px){
+      margin-top: 10%;
+      margin-left: 20%;
+    }
+    @media screen and (max-width: 1920px){
+      margin-top: 10%;
+      margin-left: 20%;
+    }
     div{
       float: left;
 
