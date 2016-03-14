@@ -1,10 +1,13 @@
-# Pinot-Boilerplate
+# Steam [ HTML5 -Portfolio Template ]
 
-**This is a most simple and flexible boilerplate to start with,**
+**90's look alike steam boilerplate**
 
-![Pinot-boilerplate-logo](https://raw.githubusercontent.com/prio101/pinot-boilerplate/master/apple-touch-icon-precomposed.png)
+![Screenshot](https://raw.githubusercontent.com/prio101/steam/master/steam.png)
 
 ---
+
+## USED :
+1.[Pinot-Boilerplate](https://github.com/prio101/pinot-boilerplate) 
 * Source: [Pinot-boilerplate SRC](https://github.com/prio101/pinot-boilerplate)
 * Homepage: [Pinot Boilerplate](http://prio101.github.io/pinot-boilerplate/)
 
